@@ -49,3 +49,7 @@ print()
 jumlah_jagung_lokasi2 = data_panen['lokasi2']['hasil_panen']['jagung']
 print(f"Jumlah hasil panen jagung dari lokasi2: {jumlah_jagung_lokasi2}")
 print()
+
+nama_lokasi3 = data_panen['lokasi3']['nama_lokasi']
+print(f"Nama lokasi dari lokasi3: {nama_lokasi3}")
+print()
