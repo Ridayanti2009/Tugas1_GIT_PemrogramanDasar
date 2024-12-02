@@ -40,3 +40,8 @@ data_panen = {
         }
     }
 }
+
+print("Seluruh Data")
+for lokasi, data in data_panen.items():
+    print(f"{lokasi}: Nama Lokasi: {data['nama_lokasi']}, Hasil Panen: {data['hasil_panen']}")
+print()
